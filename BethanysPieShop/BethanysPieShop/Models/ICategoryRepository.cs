@@ -7,6 +7,6 @@ namespace BethanysPieShop.Models
 {
     interface ICategoryRepository
     {
-        IEnumerable<Category> AllCategories { get; set; }
+        IEnumerable<Category> AllCategories { get; }
     }
 }
