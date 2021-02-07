@@ -13,7 +13,7 @@ namespace BethanysPieShop.Models
                 
         }
 
-        DbSet<Pie> Pies { get; set; }
+        public DbSet<Pie> Pies { get; set; }
         public DbSet<Category> Categories { get; set; }
     }
 }
